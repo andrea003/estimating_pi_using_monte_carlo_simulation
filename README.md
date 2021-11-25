@@ -4,7 +4,7 @@ The idea behind the simulation is to simulate random (x, y) points within a two-
 
 As the area of a circle is calculated by pi * r^2, and the area of the bounding square is (2r)^2 = 4r^2. Dividing the area of the circle by the area of the square we get pi/4.
 
-This means we can estimate pi using the formula: pi = simulated points within circle / total number of simulated points.
+This means we can estimate pi using the formula: pi = 4 * simulated points within circle / total number of simulated points.
 
 By simulating random numbers within this square, we get estimated values for the area of the circle and the area of the square. Hence we can estimate pi by calculating the ratio of simulated points that fall within the circle and total number of simulated points. 
 
