@@ -8,10 +8,10 @@ we can estimate pi.
 `circle area` = pi * radius^2.   
 `pi` = A / radius^2.   
 
-Note here that radius^2 is also the area of the square. We will simulate points to fall within this square, some of which will fall within the area of the quarter circle/under the curve. Since we will only look at the first quadrant in this case, we will use:
+Note here that radius^2 is also the area of the quadrant. We will simulate points to fall within this square, some of which will fall within the area of the quarter circle/under the curve. Since we will only look at the first quadrant in this case, we will use:
 
 `Q` = 1/4 * circle area.  
-`pi` = 4 * Q / r^2  
+`pi` = 4 * Q / radius^2, where radius^2 is estimated by the total number of simulated data points.
 
 ## Finding the curve
 To decide if the simulated points fall within the area under the curve, we apply the equation of the circle:  
